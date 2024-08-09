@@ -1,0 +1,97 @@
+@media(max-width:500px){
+    body{
+        background-image: url("./images/background.jpg");
+        background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+    }
+    #box{
+        background-image: url("./images/tictactoe.jpg");
+        box-shadow: none;
+    }
+    .forcomputer{
+        display: none;
+    }
+    .formobile{
+        display: block;
+    }
+    .players{
+        width: 150px;
+        height: 40px;
+    }
+    .difficulty{
+        display: none;
+    }
+    .difficultyformobile{
+        display: block;
+    }
+    .firstback{
+        display: none;
+    }
+    .secondback{
+        display: block;
+    }
+    .back{
+        height:40px;
+        width: 40px;
+    }
+    .back1{
+        height:40px;
+        width: 40px;
+    }
+    #back1{
+        padding-right: 360px;
+        margin-top: 0%;
+        padding-bottom: 30px;
+        margin-top: -60px;
+    }
+    #back2{
+        padding-right: 360px;
+    }
+    .back:hover{
+        background-color: rgb(238, 155, 2);
+    border: 2px solid rgb(252, 246, 170);
+    border-radius: 50px;
+    border-width: 5px;
+    }
+    .players:hover{
+        background-color: rgb(238, 155, 2);
+    border: 2px solid rgb(252, 246, 170);
+    border-radius: 50px;
+    border-width: 5px;
+    }
+    #Reset{
+        width: 150px;
+        height: 40px;
+    }
+    #Reset:hover{
+        background-color: rgb(238, 155, 2);
+        border: 2px solid rgb(252, 246, 170);
+        border-radius: 50px;
+        border-width: 5px;
+    }
+    .cell:hover{
+        background-color: white;
+    }
+}
+@media(max-width:700px)and (min-width: 500px){
+    #box{
+        width: 630px;
+    }
+    #back1{
+        padding-right: 540px;
+    }
+    #back2{
+        padding-right: 540px;
+    }
+    .cell:hover{
+        background-color: white;
+    }
+    #Reset:hover{
+        background-color: rgb(238, 155, 2);
+        border: 2px solid rgb(252, 246, 170);
+        border-radius: 50px;
+        border-width: 5px;
+    }
+}
